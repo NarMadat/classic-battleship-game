@@ -13,7 +13,6 @@ def neighbors8(r: int, c: int):
             nr, nc = r + dr, c + dc
 
 def validate_ship_shape(coords, size: int) -> bool:
-
     if len(coords) != size:
         return False
 
